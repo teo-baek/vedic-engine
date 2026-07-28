@@ -1,0 +1,49 @@
+[project]
+name = "vedic-engine"
+version = "0.1.0"
+description = "Stateless Vedic (sidereal) astronomy calculation API built on PyJHora"
+readme = "README.md"
+license = { text = "AGPL-3.0-or-later" }
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "pydantic>=2.10",
+    # AGPL-3.0. Confining it to this separate service is the whole point of the repo split.
+    "pyjhora==4.8.7",
+    "pyswisseph>=2.10",
+    # PyJHora does not declare its own runtime imports; these are all reached from
+    # jhora/utils.py at import time. The geocoding ones are never called by this service.
+    "numpy>=2.0",
+    "pytz>=2024.1",
+    "python-dateutil>=2.9",
+    "certifi>=2024.8",
+    "requests>=2.32",
+    "geocoder>=1.38",
+    "geopy>=2.4",
+    "timezonefinder>=6.5",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.8",
+    "pytest>=8.3",
+    "httpx>=0.28",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+# BLE is on so that every blind `except Exception` around a PyJHora call has to be
+# justified in place — PyJHora raises bare exceptions from deep inside, and swallowing
+# them silently is exactly how a wrong chart would reach a reader.
+select = ["E", "F", "I", "B", "UP", "RUF", "BLE"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["constants", "schemas", "wrappers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# The service modules live at the repository root, not in a package.
+pythonpath = ["."]

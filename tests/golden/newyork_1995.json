@@ -1,0 +1,465 @@
+{
+  "note": "New York, 1995-06-20 14:30 EDT",
+  "input": {
+    "utc": "1995-06-20T18:30:00+00:00",
+    "lat": 40.7128,
+    "lon": -74.006
+  },
+  "chart": {
+    "ascendant": {
+      "sign": "Virgo",
+      "sign_index": 5,
+      "degree": 23.630295
+    },
+    "planets": [
+      {
+        "id": 0,
+        "name": "Sun",
+        "sign": "Gemini",
+        "sign_index": 2,
+        "house": 10,
+        "degree": 5.172486,
+        "retrograde": false
+      },
+      {
+        "id": 1,
+        "name": "Moon",
+        "sign": "Pisces",
+        "sign_index": 11,
+        "house": 7,
+        "degree": 15.173722,
+        "retrograde": false
+      },
+      {
+        "id": 2,
+        "name": "Mars",
+        "sign": "Leo",
+        "sign_index": 4,
+        "house": 12,
+        "degree": 19.055588,
+        "retrograde": false
+      },
+      {
+        "id": 3,
+        "name": "Mercury",
+        "sign": "Taurus",
+        "sign_index": 1,
+        "house": 9,
+        "degree": 16.480927,
+        "retrograde": false
+      },
+      {
+        "id": 4,
+        "name": "Jupiter",
+        "sign": "Scorpio",
+        "sign_index": 7,
+        "house": 3,
+        "degree": 14.358443,
+        "retrograde": true
+      },
+      {
+        "id": 5,
+        "name": "Venus",
+        "sign": "Taurus",
+        "sign_index": 1,
+        "house": 9,
+        "degree": 18.502746,
+        "retrograde": false
+      },
+      {
+        "id": 6,
+        "name": "Saturn",
+        "sign": "Pisces",
+        "sign_index": 11,
+        "house": 7,
+        "degree": 0.754341,
+        "retrograde": false
+      },
+      {
+        "id": 7,
+        "name": "Rahu",
+        "sign": "Libra",
+        "sign_index": 6,
+        "house": 2,
+        "degree": 10.349084,
+        "retrograde": false
+      },
+      {
+        "id": 8,
+        "name": "Ketu",
+        "sign": "Aries",
+        "sign_index": 0,
+        "house": 8,
+        "degree": 10.349084,
+        "retrograde": false
+      }
+    ],
+    "navamsa": {
+      "ascendant": {
+        "sign": "Leo",
+        "sign_index": 4,
+        "degree": 2.672652
+      },
+      "planets": [
+        {
+          "id": 0,
+          "name": "Sun",
+          "sign": "Scorpio",
+          "sign_index": 7,
+          "house": 4,
+          "degree": 16.552378,
+          "retrograde": false
+        },
+        {
+          "id": 1,
+          "name": "Moon",
+          "sign": "Scorpio",
+          "sign_index": 7,
+          "house": 4,
+          "degree": 16.563496,
+          "retrograde": false
+        },
+        {
+          "id": 2,
+          "name": "Mars",
+          "sign": "Virgo",
+          "sign_index": 5,
+          "house": 2,
+          "degree": 21.500296,
+          "retrograde": false
+        },
+        {
+          "id": 3,
+          "name": "Mercury",
+          "sign": "Taurus",
+          "sign_index": 1,
+          "house": 10,
+          "degree": 28.328346,
+          "retrograde": false
+        },
+        {
+          "id": 4,
+          "name": "Jupiter",
+          "sign": "Scorpio",
+          "sign_index": 7,
+          "house": 4,
+          "degree": 9.225991,
+          "retrograde": true
+        },
+        {
+          "id": 5,
+          "name": "Venus",
+          "sign": "Gemini",
+          "sign_index": 2,
+          "house": 11,
+          "degree": 16.524717,
+          "retrograde": false
+        },
+        {
+          "id": 6,
+          "name": "Saturn",
+          "sign": "Cancer",
+          "sign_index": 3,
+          "house": 12,
+          "degree": 6.789069,
+          "retrograde": false
+        },
+        {
+          "id": 7,
+          "name": "Rahu",
+          "sign": "Capricorn",
+          "sign_index": 9,
+          "house": 6,
+          "degree": 3.14176,
+          "retrograde": false
+        },
+        {
+          "id": 8,
+          "name": "Ketu",
+          "sign": "Cancer",
+          "sign_index": 3,
+          "house": 12,
+          "degree": 3.14176,
+          "retrograde": false
+        }
+      ]
+    }
+  },
+  "dasha": {
+    "system": "vimshottari",
+    "cycle_years": 120,
+    "as_of": "2026-07-27T00:00:00+00:00",
+    "periods": [
+      {
+        "lord_id": 6,
+        "lord": "Saturn",
+        "years": 19,
+        "start": "1978-08-05T23:07:09+00:00",
+        "end": "1997-08-05T20:01:17+00:00"
+      },
+      {
+        "lord_id": 3,
+        "lord": "Mercury",
+        "years": 17,
+        "start": "1997-08-05T20:01:17+00:00",
+        "end": "2014-08-06T04:37:04+00:00"
+      },
+      {
+        "lord_id": 8,
+        "lord": "Ketu",
+        "years": 7,
+        "start": "2014-08-06T04:37:04+00:00",
+        "end": "2021-08-05T23:41:13+00:00"
+      },
+      {
+        "lord_id": 5,
+        "lord": "Venus",
+        "years": 20,
+        "start": "2021-08-05T23:41:13+00:00",
+        "end": "2041-08-06T02:44:30+00:00"
+      },
+      {
+        "lord_id": 0,
+        "lord": "Sun",
+        "years": 6,
+        "start": "2041-08-06T02:44:30+00:00",
+        "end": "2047-08-06T15:39:29+00:00"
+      },
+      {
+        "lord_id": 1,
+        "lord": "Moon",
+        "years": 10,
+        "start": "2047-08-06T15:39:29+00:00",
+        "end": "2057-08-06T05:11:08+00:00"
+      },
+      {
+        "lord_id": 2,
+        "lord": "Mars",
+        "years": 7,
+        "start": "2057-08-06T05:11:08+00:00",
+        "end": "2064-08-06T00:15:16+00:00"
+      },
+      {
+        "lord_id": 7,
+        "lord": "Rahu",
+        "years": 18,
+        "start": "2064-08-06T00:15:16+00:00",
+        "end": "2082-08-06T15:00:14+00:00"
+      },
+      {
+        "lord_id": 4,
+        "lord": "Jupiter",
+        "years": 16,
+        "start": "2082-08-06T15:00:14+00:00",
+        "end": "2098-08-06T15:00:14+00:00"
+      }
+    ],
+    "current": {
+      "lord": "Venus",
+      "start": "2021-08-05T23:41:13+00:00",
+      "end": "2041-08-06T02:44:30+00:00",
+      "sub_lord": "Moon",
+      "sub_start": "2025-12-05T18:20:56+00:00",
+      "sub_end": "2027-08-06T12:36:12+00:00"
+    }
+  },
+  "panchanga": {
+    "evaluated_at": "1995-06-20T18:30:00+00:00",
+    "tithi": {
+      "number": 24,
+      "name": "Navami"
+    },
+    "nakshatra": {
+      "number": 26,
+      "name": "Uttara Bhadrapada",
+      "pada": 4
+    },
+    "yoga": {
+      "number": 4,
+      "name": "Soubhagya"
+    },
+    "karana": {
+      "number": 47,
+      "name": "Taitila"
+    },
+    "moon_sign": {
+      "sign": "Pisces",
+      "sign_index": 11
+    }
+  },
+  "strength": {
+    "planets": [
+      {
+        "id": 0,
+        "name": "Sun",
+        "score_100": 90.5,
+        "ratio": 1.81,
+        "rupas": 9.03,
+        "shashtiamsas": 541.83,
+        "rank": 2
+      },
+      {
+        "id": 1,
+        "name": "Moon",
+        "score_100": 54.0,
+        "ratio": 1.08,
+        "rupas": 6.47,
+        "shashtiamsas": 387.98,
+        "rank": 5
+      },
+      {
+        "id": 2,
+        "name": "Mars",
+        "score_100": 56.5,
+        "ratio": 1.13,
+        "rupas": 5.67,
+        "shashtiamsas": 339.92,
+        "rank": 6
+      },
+      {
+        "id": 3,
+        "name": "Mercury",
+        "score_100": 67.5,
+        "ratio": 1.35,
+        "rupas": 9.45,
+        "shashtiamsas": 566.78,
+        "rank": 1
+      },
+      {
+        "id": 4,
+        "name": "Jupiter",
+        "score_100": 67.0,
+        "ratio": 1.34,
+        "rupas": 8.73,
+        "shashtiamsas": 523.7,
+        "rank": 3
+      },
+      {
+        "id": 5,
+        "name": "Venus",
+        "score_100": 69.5,
+        "ratio": 1.39,
+        "rupas": 7.64,
+        "shashtiamsas": 458.26,
+        "rank": 4
+      },
+      {
+        "id": 6,
+        "name": "Saturn",
+        "score_100": 46.5,
+        "ratio": 0.93,
+        "rupas": 4.63,
+        "shashtiamsas": 277.86,
+        "rank": 7
+      }
+    ]
+  },
+  "compat_vs_busan_1978": {
+    "porutham_36": 16.0,
+    "max_porutham": 36,
+    "score_100": 44.44,
+    "details": [
+      {
+        "kuta": "varna",
+        "points": 1.0,
+        "max_points": 1,
+        "matched": true
+      },
+      {
+        "kuta": "vasya",
+        "points": 1.0,
+        "max_points": 2,
+        "matched": true
+      },
+      {
+        "kuta": "gana",
+        "points": 6.0,
+        "max_points": 6,
+        "matched": true
+      },
+      {
+        "kuta": "tara",
+        "points": 0.0,
+        "max_points": 3,
+        "matched": false
+      },
+      {
+        "kuta": "yoni",
+        "points": 3.0,
+        "max_points": 4,
+        "matched": true
+      },
+      {
+        "kuta": "graha_maitri",
+        "points": 5.0,
+        "max_points": 5,
+        "matched": true
+      },
+      {
+        "kuta": "bhakoot",
+        "points": 0.0,
+        "max_points": 7,
+        "matched": false
+      },
+      {
+        "kuta": "nadi",
+        "points": 0.0,
+        "max_points": 8,
+        "matched": false
+      }
+    ],
+    "supplementary": {
+      "mahendra": true,
+      "vedha": true,
+      "rajju": false,
+      "sthree_dheerga": false
+    },
+    "a": {
+      "nakshatra_number": 26,
+      "nakshatra": "Uttara Bhadrapada",
+      "pada": 4
+    },
+    "b": {
+      "nakshatra_number": 17,
+      "nakshatra": "Anuradha",
+      "pada": 3
+    }
+  },
+  "yoga": {
+    "detected_count": 31,
+    "checked_count": 284,
+    "keys": [
+      "anapathya_yoga",
+      "annadana_yoga",
+      "anthya_vayasi_dhana_yoga",
+      "asubha_yoga",
+      "bahu_sthree_yoga",
+      "bandhu_pujya_yoga_194",
+      "bandhubhisthyaktha_yoga",
+      "bheri_yoga",
+      "bhratruvriddhi_yoga",
+      "chaamara_yoga",
+      "dharidhra_yoga_149",
+      "dhatrutwa_yoga",
+      "eka_puthra_yoga",
+      "guhyaroga_yoga",
+      "kaahala_yoga",
+      "kahala_yoga",
+      "krisanga_yoga_112",
+      "matru_sneha_yoga",
+      "matrumooladdhana_yoga",
+      "matrunasa_yoga_198",
+      "nishkapata_yoga_205",
+      "paasa_yoga",
+      "sankha_yoga",
+      "satkalatra_yoga",
+      "sunaphaa_yoga",
+      "swaveeryaddhana_yoga",
+      "thrikaala_gnana_yoga",
+      "vahana_yoga_209",
+      "vasumathi_yoga",
+      "vosi_yoga",
+      "yukthi_samanwithavagmi_yoga_154"
+    ]
+  }
+}

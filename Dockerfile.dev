@@ -1,0 +1,16 @@
+# Development image — same dependencies as the runtime, plus the test toolchain, and
+# without the asset pruning so `make golden` and ad-hoc exploration have everything.
+FROM python:3.12-slim
+
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends build-essential \
+ && rm -rf /var/lib/apt/lists/*
+
+COPY --from=ghcr.io/astral-sh/uv:0.5.11 /uv /bin/uv
+
+WORKDIR /app
+COPY pyproject.toml README.md ./
+RUN uv pip install --system --no-cache -r pyproject.toml \
+ && uv pip install --system --no-cache pytest httpx ruff
+
+ENV PYTHONUNBUFFERED=1
